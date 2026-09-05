@@ -11,6 +11,6 @@ class Background {
 		Background();
 		Background(std::string path);
 
-		void setimage(std::string path);
-		Texture2D getimage();
-}
+		void setImage(std::string path);
+		Texture2D getImage();
+};
