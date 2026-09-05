@@ -9,5 +9,7 @@ int main(void) {
     window.update();
   }
 
+  CloseWindow();
+
   return 0;
 }
