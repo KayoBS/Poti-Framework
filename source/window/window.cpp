@@ -10,6 +10,8 @@ Window::Window(int screenWidth, int screenHeight, int fps, std::string windownam
 
 //faltava o Window:: em todos os métodos
 
+//foi pra ver se você tava esperto 
+
 void Window::setScreenHeight(int screenHeight){
 	this->screenSize.y = screenHeight;
 }
