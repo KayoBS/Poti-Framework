@@ -18,7 +18,11 @@ class LayoutObject {
 
     //getters
     Vector2 getPosition();
+    float getPosX();
+    float getPosY();
     Vector2 getSize();
+    float getWidth();
+    float getHeight();
     short int getAngle();
     unsigned short int getOpacity();
 

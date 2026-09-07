@@ -4,9 +4,23 @@
 Vector2 LayoutObject::getPosition() {
   return this->position;
 }
+float LayoutObject::getPosX() {
+  return this->position.x;
+}
+float LayoutObject::getPosY() {
+  return this->position.y;
+}
+
 Vector2 LayoutObject::getSize() {
   return this->size;
 }
+float LayoutObject::getWidth() {
+  return this->size.x;
+}
+float LayoutObject::getHeight() {
+  return this->size.y;
+}
+
 short int LayoutObject::getAngle() {
   return this->angle;
 }
