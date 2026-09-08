@@ -14,6 +14,8 @@ class Window {
 	public:
 		Window(int screenWidth, int screenHeight, int fps, std::string windowName);
 
+    void setProperties( int screenWidth, int screenHeight, int fps, std::string windowName );
+
 		void init();
     void update();
 		

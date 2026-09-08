@@ -2,10 +2,17 @@
 
 Window::Window() {}
 Window::Window(int screenWidth, int screenHeight, int fps, std::string windowname) {
-  this->screenSize.x = screenHeight;
+  this->screenSize.x = screenWidth;
 	this->screenSize.y = screenHeight;
 	this->fps = fps;
 	this->winName = windowname;
+}
+
+void Window::setProperties( int screenWidth, int screenHeight, int fps, std::string windowName ) {
+  this->screenSize.x = screenWidth;
+  this->screenSize.y = screenHeight;
+  this->fps = fps;
+  this->winName = windowName;
 }
 
 //faltava o Window:: em todos os métodos
