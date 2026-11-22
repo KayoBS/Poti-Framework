@@ -1,4 +1,4 @@
-# Poti-Framework V0.0.0
+# <img src="imgs/poti_framework_logo.png" alt="Logo" height="32"> Poti-Framework V0.0.0
 Poti is an unpretentious game framework based on Raylib 5, aiming to further simplify the library's functionality by encapsulating its functions within classes.
 
 ## Requirements
